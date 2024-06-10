@@ -11,7 +11,7 @@ const Contact = lazy(()=>import('./Pages/Contact'));
 function App() {
   
   return (
-   <Suspense fallback={<div className='flex items-center justify-center h-[100vh] w-[100%] font-bold text-[20px]'> Loading...</div>}>
+   <Suspense fallback={<div className='flex items-center justify-center h-[100vh] w-[100%] font-bold text-[20px]'><span className='loader'></span> </div>}>
     
      
     <BrowserRouter>
