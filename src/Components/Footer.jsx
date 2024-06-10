@@ -4,7 +4,7 @@ import { FaLocationDot } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-orange-600 text-white py-8 overflow-hidden">
+    <footer className="relative bg-orange-600 px-4 text-white py-8 overflow-hidden">
       {/* Moving gradient effect */}
       <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-orange-500 to-orange-800 opacity-50 animate-gradient"></div>
 

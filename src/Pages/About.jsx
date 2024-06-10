@@ -9,7 +9,7 @@ const About = () => {
       <div className="px-4 sm:px-10 py-10 font-sans bg-gray-100 min-h-screen">
       <div className="max-w-7xl mx-auto">
       <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-      <h1 className="text-3xl text-orange-600 font-bold mb-6 pt-[12px]">Our Story</h1>
+      
       <div className="space-y-5">
         <p>
           Lakshaka Insta Management Private Limited is based in Coimbatore, Tamilnadu. Our prime goal is to mark ourselves as a fast-growing, well-established, and renowned company. Our main product includes all kinds of Medical Dress, Nurse Uniforms, Medical Equipment, etc.
@@ -46,6 +46,7 @@ const About = () => {
       <p>Lakshaka Insta Management Pvt Ltd has 2900 sq.feet of building space in the heart of the city and we can commit training 200-300 candidates ever quarter. We have the capacity of further increase the numbers. We have the office in Dr. Nanjappa Road, Coimbatore, Tamilnadu.</p>
       <p>Branch office: We have our branch office in Bangalore.</p>
       <p>Training Facility: We conduct our training programs anywhere in India and also in other countries either directly or through our partners.</p>
+      <p>Interviews: Interviews usually are conducted in a flexible manner in the locations where we have a good number of participants. This can be in multiple locations.</p>
       </div>
       </div>
       <h2 className="text-2xl text-orange-600 font-bold mb-4 pt-[20px] pb-[20px]">Gallery</h2>

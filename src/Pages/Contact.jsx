@@ -30,7 +30,7 @@ const Contact = () => {
   </div>
   <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
 
-  <h1 className="text-2xl font-bold mb-4 text-orange-600 pt-[20px] pb-[20px]">Coimbatore Location</h1>
+  <h1 className="text-2xl  font-bold mb-4 text-orange-600 pt-[20px] pb-[20px]">Coimbatore Location</h1>
   <address className="mb-6">
     Lakshaka Insta Management Private Limited<br/> 
     No. 359, 1st Floor, Natraj Building,<br/> 

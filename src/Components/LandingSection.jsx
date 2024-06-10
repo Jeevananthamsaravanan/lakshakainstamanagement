@@ -3,7 +3,7 @@ import bgImage from "../assets/back.jpg";
 
 const LandingSection = () => {
   return (
-    <section className="bg-gradient-to-r from-orange-500 to-orange-700 h-[50vh] flex flex-col justify-center items-center text-center relative overflow-hidden">
+    <section className="bg-gradient-to-r from-orange-500 to-orange-700 h-[55vh] flex flex-col justify-center items-center text-center relative overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: `url(${bgImage})` }}></div>
       <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold z-10 p-4">
         Lakshaka Insta Management Private Limited
