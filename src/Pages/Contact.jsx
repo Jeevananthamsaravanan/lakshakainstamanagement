@@ -45,7 +45,7 @@ const Contact = () => {
       title="Google Map"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.77653327145094!2d76.96630420550375!3d11.006740447567681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b422f30c1f%3A0x10da09d7d153a853!2sCoimbatore%20Brethren%20Church%2C%20Gandhipuram!5e0!3m2!1sen!2sin!4v1717139152837!5m2!1sen!2sin"
       width="100%"
-      height="200"
+      height="400"
       allowFullScreen=""
       loading="lazy"
       className="rounded-lg"
