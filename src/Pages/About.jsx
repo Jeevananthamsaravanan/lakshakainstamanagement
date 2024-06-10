@@ -44,9 +44,9 @@ const About = () => {
       <h2 className="text-2xl text-orange-600 font-bold mb-4 pt-[20px]">Infrastructure</h2>
        <div className='space-y-5'>
       <p>Lakshaka Insta Management Pvt Ltd has 2900 sq.feet of building space in the heart of the city and we can commit training 200-300 candidates ever quarter. We have the capacity of further increase the numbers. We have the office in Dr. Nanjappa Road, Coimbatore, Tamilnadu.</p>
-      <p>Branch office: We have our branch office in Bangalore.</p>
-      <p>Training Facility: We conduct our training programs anywhere in India and also in other countries either directly or through our partners.</p>
-      <p>Interviews: Interviews usually are conducted in a flexible manner in the locations where we have a good number of participants. This can be in multiple locations.</p>
+      <p><strong>Branch office: </strong> We have our branch office in Bangalore.</p>
+      <p><strong>Training Facility: </strong> We conduct our training programs anywhere in India and also in other countries either directly or through our partners.</p>
+      <p><strong>Interviews: </strong> Interviews usually are conducted in a flexible manner in the locations where we have a good number of participants. This can be in multiple locations.</p>
       </div>
       </div>
       <h2 className="text-2xl text-orange-600 font-bold mb-4 pt-[20px] pb-[20px]">Gallery</h2>

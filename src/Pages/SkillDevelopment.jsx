@@ -26,7 +26,7 @@ const SkillDevelopment = () => {
     </div>
     <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
       <h2 className="text-2xl text-orange-600 font-bold mb-4 pt-[20px]">Types of Skills</h2>
-      <div className="space-y-5">
+      {/* <div className="space-y-5">
        
         <ul className="list-disc list-inside space-y-2">
           <li>Soft skills are related to emotional intelligence.</li>
@@ -42,10 +42,10 @@ const SkillDevelopment = () => {
           <li>Machine operation</li>
           <li>Computer programming</li>
         </ul>
-      </div>
-</div>
-<div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-      <h2 className="text-2xl font-bold mb-4 text-orange-600 pt-[20px]">Hard Skills</h2>
+      </div> */}
+
+<div className="mb-10">
+      <h2 className="text-2xl font-bold mb-4 text-black pt-[20px]">Hard Skills</h2>
       <ul className="list-disc list-inside space-y-2 mb-5">
         <li>Easy to measure and define</li>
         <li>Generally acquired via training</li>
@@ -53,14 +53,16 @@ const SkillDevelopment = () => {
       </ul>
       <p>Examples: Microsoft Office, language ability, software skills, accounting</p>
      </div>
-      <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-      <h2 className="text-2xl font-bold mb-4 text-orange-600 pt-[20px]">Soft Skills</h2>
+      <div className=" mb-10">
+      <h2 className="text-2xl font-bold mb-4 text-black pt-[20px]">Soft Skills</h2>
       <ul className="list-disc list-inside space-y-2 mb-5">
         <li>Difficult to measure and define</li>
         <li>Generally acquired via experience</li>
         <li>Easily transferable</li>
       </ul>
       <p>Examples: Critical thinking, leadership, good work ethic, negotiation skills</p>
+    </div>
+
     </div>
     
     <div className="bg-white shadow-lg rounded-lg p-8 mb-10">

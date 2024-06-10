@@ -144,22 +144,22 @@ const Sections = () => {
         {/* Profile Details */}
         <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
           <h2 className="text-2xl font-bold mb-4 text-orange-600">Profile Details</h2>
-          <div className="space-y-4 text-gray-700">
+          <div className="space-y-4 text-gray-700 mb-4">
             <p><strong>Name:</strong> M N PADMANABHAN B.Com</p>
             <p><strong>Education:</strong> Textiles Technology from City & Guilds Institute of London</p>
-            <p><strong>Agriculture Lands:</strong> In and around Coimbatore.</p>
-            <p><strong>Rental Commercial Buildings:</strong> In Coimbatore City.</p>
+            
           </div>
    
 
         {/* Property Details */}
       
-          {/* <h2 className="text-2xl font-bold mb-4 text-orange-600">Property Details</h2> */}
-          
-     
-
+          <h2 className="text-xl font-bold mb-4 text-slate-900">Property Details</h2>
+          <div className="space-y-4 text-gray-700 mb-4">
+          <p><strong>Agriculture Lands:</strong> In and around Coimbatore.</p>
+          <p><strong>Rental Commercial Buildings:</strong> In Coimbatore City.</p>
+          </div>
        
-          {/* <h2 className="text-2xl font-bold mb-4 text-orange-600">Positions</h2> */}
+          <h2 className="text-xl font-bold mb-4 text-slate-900">Positions</h2>
           <div className="space-y-4 text-gray-700 grid grid-cols-1 mt-8 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="flex items-start">
               <div className='w-[30px] h-[30px]'>
