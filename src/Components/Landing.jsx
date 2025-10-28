@@ -1,6 +1,7 @@
 import React from 'react';
 import bgImage from "../assets/back.jpg";
 
+
 const Landing = ({title}) => {
   return (
     <section className="bg-gradient-to-r font-sans from-orange-500 to-orange-700 h-[40vh] flex flex-col justify-center items-center text-center relative overflow-hidden">

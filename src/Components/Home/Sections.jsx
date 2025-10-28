@@ -53,13 +53,13 @@ const Sections = () => {
             <div className='w-[30px] h-[30px]'>
               <FaRegMoneyBillAlt className="inline-block mr-3 text-[18px] text-orange-600" />
               </div>
-              <p><strong>Authorized Share Capital:</strong> Rs. 1,000,000</p>
+              <p><strong>Authorized Share Capital:</strong> N/A</p>
             </div>
             <div className="flex items-start">
             <div className='w-[30px] h-[30px]'>
               <FaRegMoneyBillAlt className="inline-block mr-3 text-[18px] text-orange-600" />
              </div>
-              <p><strong>Paid Up Capital:</strong> Rs. 300,000</p>
+              <p><strong>Paid Up Capital:</strong> N/A</p>
             </div>
             <div className="flex items-start">
             <div className='w-[30px] h-[30px]'>
@@ -142,7 +142,7 @@ const Sections = () => {
         </div>
 
         {/* Profile Details */}
-        <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
+        {/* <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
           <h2 className="text-2xl font-bold mb-4 text-orange-600">Profile Details</h2>
           <div className="space-y-4 text-gray-700 mb-4">
             <p><strong>Name:</strong> M N PADMANABHAN B.Com</p>
@@ -150,8 +150,6 @@ const Sections = () => {
             
           </div>
    
-
-        {/* Property Details */}
       
           <h2 className="text-xl font-bold mb-4 text-slate-900">Property Details</h2>
           <div className="space-y-4 text-gray-700 mb-4">
@@ -240,7 +238,7 @@ const Sections = () => {
               <p>Managing Trustee of Nataraj Sree Sarojini Charitable Trust</p>
             </div>
           </div>
-        </div>
+        </div> */}
         
 
 

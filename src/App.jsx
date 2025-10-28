@@ -2,6 +2,7 @@ import { Fragment , Suspense ,lazy } from 'react';
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import Nav from './Components/Nav';
 import Footer from './Components/Footer';
+import ProductDetails from './Pages/ProductDetails';
 
 const Home = lazy(()=>import('./Pages/Home'));
 const About = lazy(()=>import('./Pages/About'));
@@ -19,6 +20,7 @@ function App() {
          <Routes>
            <Route path="/" element={<Home/>} />
            <Route path="/about-us" element={<About/>} />
+           <Route path="/product-details" element={<ProductDetails/>} />
            <Route path="/skill-development" element={<SkillDevelopment/>} />
            <Route path="/contact-us" element={<Contact/>} />
          </Routes>

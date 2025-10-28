@@ -24,62 +24,25 @@ const SkillDevelopment = () => {
         </ul>
       </div>
     </div>
-    <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-      <h2 className="text-2xl text-orange-600 font-bold mb-4 pt-[20px]">Types of Skills</h2>
-      {/* <div className="space-y-5">
-       
-        <ul className="list-disc list-inside space-y-2">
-          <li>Soft skills are related to emotional intelligence.</li>
-          <li>Flexibility</li>
-          <li>Leadership</li>
-          <li>Motivation</li>
-          <li>Patience</li>       
-          <li>Hard skills are any skills relating to a specific task.</li>
-          <li>These skills are quantifiable.</li>
-          <li>Proficiency in a foreign language</li>
-          <li>A degree or certificate</li>
-          <li>Typing speed</li>
-          <li>Machine operation</li>
-          <li>Computer programming</li>
-        </ul>
-      </div> */}
 
-<div className="mb-10">
-      <h2 className="text-2xl font-bold mb-4 text-black pt-[20px]">Hard Skills</h2>
-      <ul className="list-disc list-inside space-y-2 mb-5">
-        <li>Easy to measure and define</li>
-        <li>Generally acquired via training</li>
-        <li>Specific to a particular job or task</li>
-      </ul>
-      <p>Examples: Microsoft Office, language ability, software skills, accounting</p>
-     </div>
-      <div className=" mb-10">
-      <h2 className="text-2xl font-bold mb-4 text-black pt-[20px]">Soft Skills</h2>
-      <ul className="list-disc list-inside space-y-2 mb-5">
-        <li>Difficult to measure and define</li>
-        <li>Generally acquired via experience</li>
-        <li>Easily transferable</li>
-      </ul>
-      <p>Examples: Critical thinking, leadership, good work ethic, negotiation skills</p>
+    <div className="flex flex-row sm:flex-row flex-wrap justify-center items-center gap-10 mb-6">
+      <img src="src\assets\GIMS - Presentation_page-0002.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0003.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0004.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0005.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0006.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0007.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0008.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0009.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0010.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src="src\assets\GIMS - Presentation_page-0011.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
     </div>
 
     </div>
+    </div>
+    </div>
+
     
-    <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-      <h2 className="text-2xl font-bold mb-4 text-orange-600 pt-[20px]">Trainings</h2>
-      <ul className="list-disc list-inside space-y-2 mb-5">
-        <li>On-the-job training</li>
-        <li>Classroom training</li>
-        <li>E-learning  </li>
-        <li>Coaching and mentoring</li>
-        <li>Job shadowing</li>
-      </ul>
-      
-    </div>
-
-    </div>
-    </div>
-    </div>
     
     </Fragment>
   )

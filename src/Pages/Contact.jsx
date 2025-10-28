@@ -12,22 +12,16 @@ const Contact = () => {
   <h1 className="text-2xl font-bold mb-4 text-orange-600 pt-[20px] pb-[20px]">Contact Details</h1>
   <div>
     <h1><strong>Mail Id:</strong></h1>
-    <p>lakshakainstaofficial@gmail.com <br/> padh122@gmail.com</p>
+    <p>lakshakainstaofficial@gmail.com <br/> padh122@gmail.com<br/>ltcbe102@gmail.com</p>
   </div>
   
   <div className='mt-[20px]'>
-    <h1><strong>Phone Number</strong></h1>
-    <p>+91 78922 82496<br/>+91 99403 06555</p>
+    <h1><strong>Phone Number:</strong></h1>
+    <p>+91 99403 06555</p>
   </div>
+
   </div>
-  <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
-  <h1 className="text-2xl font-bold mb-4 text-orange-600 pt-[20px] pb-[20px]">Bengaluru Location</h1>
-  <address className="mb-6">
-    109, Regus Supreme, Overseas Export Building, 1st Floor,<br/> 
-    Krishna Rajendra Road, 7th Block, Jaya Nagar,<br/> 
-    Bengaluru, Karnataka, India-560 070.
-  </address>
-  </div>
+  
   <div className="bg-white shadow-lg rounded-lg p-8 mb-10">
 
   <h1 className="text-2xl  font-bold mb-4 text-orange-600 pt-[20px] pb-[20px]">Coimbatore Location</h1>
