@@ -19,12 +19,12 @@ const Footer = () => {
                 Dr. Nanjappa Road, Coimbatore,<br/>
                 Tamilnadu, India. 641018.</p>
             </div>
-            <div className="w-[300px] sm:w-[400px] bg-white shadow-lg rounded-lg px-4 py-8 text-orange-600">
+            {/* <div className="w-[300px] sm:w-[400px] bg-white shadow-lg rounded-lg px-4 py-8 text-orange-600">
               <h3 className="text-lg font-semibold mb-2 flex items-center justify-center w-[100%] gap-3"><FaLocationDot /> Bangalore</h3>
               <p className=''>109, Regus Supreme, Overseas Export Building,<br/> 1st Floor,
                 Krishna Rajendra Road, 7th Block, Jaya Nagar,<br/>
                 Bengaluru, Karnataka, India-560 070.</p>
-            </div>
+            </div> */}
           </div>
         </div>
 

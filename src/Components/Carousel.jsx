@@ -17,6 +17,7 @@ import img14 from '../assets/Image/img1 (10).jpeg';
 import img15 from '../assets/Image/img1 (11).jpeg';
 import img16 from '../assets/Image/img1 (12).jpeg';
 
+
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);

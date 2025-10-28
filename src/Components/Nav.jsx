@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaUser, FaTools } from 'react-icons/fa';
+import { FaPhone, FaUser, FaTools , FaClipboardList} from 'react-icons/fa';
 import Logo from "../assets/lakshaka.webp";
 import { useLocation } from 'react-router-dom';
 
@@ -23,6 +23,10 @@ const Nav = () => {
             <a href="/about-us"><FaUser /></a>
               <a href="/about-us">About Us</a>
             </li>
+            <li className={`${location.pathname == "/product-details" ? "text-orange-600":""} hover:text-orange-600 cursor-pointer flex items-center gap-2`}>
+            <a href="/product-details"><FaClipboardList /></a>
+              <a href="/product-details">Product Details</a>
+            </li>
             <li className={`${location.pathname == "/skill-development" ? "text-orange-600":""} hover:text-orange-600 cursor-pointer flex items-center gap-2`}>
             <a href="/skill-development"><FaTools /></a>
               <a href="/skill-development">Skill Development</a>
@@ -39,6 +43,10 @@ const Nav = () => {
           <li className={`${location.pathname == "/about-us" ? "text-orange-600":""} hover:text-orange-600 cursor-pointer flex items-center gap-2`}>
             <a href="/about-us"><FaUser /></a>
               <a href="/about-us">About Us</a>
+            </li>
+            <li className={`${location.pathname == "/product-details" ? "text-orange-600":""} hover:text-orange-600 cursor-pointer flex items-center gap-2`}>
+            <a href="/product-details"><FaUser /></a>
+              <a href="/product-details">Product Details</a>
             </li>
             <li className={`${location.pathname == "/skill-development" ? "text-orange-600":""} hover:text-orange-600 cursor-pointer flex items-center gap-2`}>
             <a href="/skill-development"><FaTools /></a>
