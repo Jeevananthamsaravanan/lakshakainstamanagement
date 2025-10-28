@@ -1,6 +1,17 @@
 import React, { Fragment } from 'react'
 import Landing from '../Components/Landing'
 
+import page2 from '../assets/GIMS - Presentation_page-0002.jpg';
+import page3 from '../assets/GIMS - Presentation_page-0003.jpg';
+import page4 from '../assets/GIMS - Presentation_page-0004.jpg';
+import page5 from '../assets/GIMS - Presentation_page-0005.jpg';
+import page6 from '../assets/GIMS - Presentation_page-0006.jpg';
+import page7 from '../assets/GIMS - Presentation_page-0007.jpg';
+import page8 from '../assets/GIMS - Presentation_page-0008.jpg';
+import page9 from '../assets/GIMS - Presentation_page-0009.jpg';
+import page10 from '../assets/GIMS - Presentation_page-0010.jpg';
+import page11 from '../assets/GIMS - Presentation_page-0011.jpg';
+
 const SkillDevelopment = () => {
   return (
     <Fragment>
@@ -26,16 +37,16 @@ const SkillDevelopment = () => {
     </div>
 
     <div className="flex flex-row sm:flex-row flex-wrap justify-center items-center gap-10 mb-6">
-      <img src="src\assets\GIMS - Presentation_page-0002.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0003.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0004.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0005.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0006.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0007.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0008.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0009.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0010.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
-      <img src="src\assets\GIMS - Presentation_page-0011.jpg" alt="Liver Image 1" className="w-[100%]  rounded-lg shadow-md object-cover" />
+      <img src={page2} alt="GIMS Page 2" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page3} alt="GIMS Page 3" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page4} alt="GIMS Page 4" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page5} alt="GIMS Page 5" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page6} alt="GIMS Page 6" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page7} alt="GIMS Page 7" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page8} alt="GIMS Page 8" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page9} alt="GIMS Page 9" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page10} alt="GIMS Page 10" className="w-full rounded-lg shadow-md object-cover" />
+              <img src={page11} alt="GIMS Page 11" className="w-full rounded-lg shadow-md object-cover" />
     </div>
 
     </div>
