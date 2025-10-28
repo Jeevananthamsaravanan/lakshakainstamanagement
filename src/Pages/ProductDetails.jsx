@@ -1,6 +1,27 @@
 import React, { Fragment } from 'react';
 import Carousel from "../Components/Carousel";
 import Landing from '../Components/Landing';
+import uniform1 from '../assets/uniform1.png';
+import uniform2 from '../assets/uniform2.png';
+import uniform3 from '../assets/uniform3.png';
+import uniform4 from '../assets/uniform4.png';
+
+import body1 from '../assets/body1.png';
+import body2 from '../assets/body2.png';
+import body3 from '../assets/body3.png';
+import body4 from '../assets/body4.png';
+
+import training1 from '../assets/training1.jpg';
+import training2 from '../assets/training2.jpg';
+import training3 from '../assets/training3.jpg';
+import training4 from '../assets/training4.jpg';
+import training5 from '../assets/training5.jpg';
+
+import device1 from '../assets/device1.jpg';
+import device2 from '../assets/device2.jpg';
+import device3 from '../assets/device3.jpg';
+
+import case1 from '../assets/case1.jpg';
 
 
 const ProductDetails= () => {
@@ -13,12 +34,12 @@ const ProductDetails= () => {
       {/* --- Two Product Images --- */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-8">
         <img
-          src="src/assets/uniform1.png"
+          src={uniform1}
           alt="Nurse Wear Front"
           className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover"
         />
         <img
-          src="src/assets/uniform2.png"
+          src={uniform2}
           alt="Nurse Wear Pant"
           className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover"
         />
@@ -39,12 +60,12 @@ const ProductDetails= () => {
       {/* --- Two Product Images --- */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-8">
         <img
-          src="src/assets/uniform3.png"
+          src={uniform3}
           alt="Nurse Wear Front"
           className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover"
         />
         <img
-          src="src/assets/uniform4.png"
+          src={uniform4}
           alt="Nurse Wear Pant"
           className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover"
         />
@@ -65,20 +86,20 @@ const ProductDetails= () => {
         Ablation Series - Thyroid Nodules Biopsy
       </h2>
       <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-6">
-        <img src="src\assets\body1.png" alt="Liver Image 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
-        <img src="src\assets\body2.png" alt="Liver Image 2" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={body1} alt="Liver Image 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={body2} alt="Liver Image 2" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
       </div>
       <h2 className="text-lg font-semibold text-center mb-6">
         Ablation Series - Uterine Fibroids (Myomas) Biopsy
       </h2>
       <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-6">
-        <img src="src\assets\body3.png" alt="Liver Image 3" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={body3} alt="Liver Image 3" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
         </div>
         <h2 className="text-lg font-semibold text-center mb-6">
         Ablation Series enhances training precision, - Breast Examination, Biopsy
       </h2>
       <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-6">
-        <img src="src\assets\body4.png" alt="Liver Image 3" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={body4} alt="Liver Image 3" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
         </div>
     </div>
 
@@ -87,11 +108,11 @@ const ProductDetails= () => {
         SKILL DEVELOPMENT TRAINING PROGRAM
       </h2>
       <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 mb-6">
-        <img src="src\assets\training1.jpg" alt="Liver Image 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
-        <img src="src\assets\training2.jpg" alt="Liver Image 2" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
-        <img src="src\assets\training3.jpg" alt="Liver Image 3" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
-        <img src="src\assets\training4.jpg" alt="Liver Image 4" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
-        <img src="src\assets\training5.jpg" alt="Liver Image 5" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={training1} alt="Training Program 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={training2} alt="Training Program 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={training3} alt="Training Program 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={training4} alt="Training Program 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
+        <img src={training5} alt="Training Program 1" className="w-3/4 sm:w-1/3 rounded-lg shadow-md object-cover" />
       </div>
     </div>
 
@@ -105,7 +126,7 @@ const ProductDetails= () => {
     <h3 className="text-lg font-semibold text-purple-800 mb-4">Oncology:</h3>
     <div className="flex flex-col sm:flex-row items-center gap-6">
       <img
-        src="src/assets/device1.jpg"
+        src={device1}
         alt="Breast binder"
         className="w-40 h-40 object-cover rounded-lg shadow-md"
       />
@@ -126,7 +147,7 @@ const ProductDetails= () => {
     {/* Finger Orthosis */}
     <div className="flex flex-col sm:flex-row items-center gap-6 mb-6">
       <img
-        src="src\assets\device2.jpg"
+        src={device2}
         alt="Finger orthosis"
         className="w-40 h-40 object-cover rounded-lg shadow-md"
       />
@@ -142,7 +163,7 @@ const ProductDetails= () => {
     {/* Knee Immobilizer */}
     <div className="flex flex-col sm:flex-row items-center gap-6">
       <img
-        src="src\assets\device3.jpg"
+        src={device3}
         alt="Knee immobilizer"
         className="w-40 h-40 object-cover rounded-lg shadow-md"
       />
@@ -162,7 +183,7 @@ const ProductDetails= () => {
   <div className="flex flex-col sm:flex-row items-start gap-8">
     {/* Left Side Image */}
     <img
-      src="src\assets\case1.jpg"
+      src={case1}
       alt="EDMS Diagram"
       className="w-full sm:w-1/3 object-contain rounded-lg shadow-md"
     />
